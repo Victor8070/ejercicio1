@@ -1,34 +1,68 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
-    <table border="1">
-        <caption>Horario de 2SMX-B</caption> 
-    <thead>
-        <tr>
-            <th >Hora</th>
-            <th >Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-        </tr>
-    </thead>
+<head>
+    <meta charset="UTF-8">
+    <title>Horario de 2SMX-B</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #333; padding: 8px; text-align: center; }
+        caption { font-weight: bold; margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Horario de 2SMX-B</caption>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00- 8:55</td>
+                <td rowspan="3">Sistemas Operativos en red</td>
+                <td rowspan="2">Servicios en red</td>
+                <td rowspan="2">Seguridad Informatica</td>
+                <td>Sostenibilidad aplicada</td>
+                <td>Modulo Optativo</td>
+            </tr>
+            <tr>
+                <td>8:55-9:50</td>
+                <td rowspan="2">Servicios en red</td>
+                <td rowspan="2">Proyecto Intermodular</td>
+                
+                
+            </tr>
+            <tr>
+                <td>9:50-10:45</td>
+                <td rowspan="2">Seguridad Informatica</td>
+                <td>Modulo Optativo</td>
 
-    <tbody>
-        <tr>
-            <td>7-8</td>
-            <td rowspan="3">Sistemes Operatius en xarxa</td>
-            <td>Sistemes Operatius en xarxa</td>
-            <td>Sistemes Operatius en xarxa</td>
-            <td>Sistemes Operatius en xarxa</td>
-            <td>Sistemes Operatius en xarxa</td>
-        </tr>
-        <tr>
-            <td>7-8</td>
-            <td>Programacion</td>
-        </tr>
-
-    </tbody>
-
+            </tr>
+            <tr>
+                <td>11:10-12:05</td>
+                <td>Modulo Optativo</td>
+                
+                <td rowspan="3">Sistemas Operativos</td>
+                <td rowspan="3">Aplicaciones Web</td>
+                <td rowspan="3">Servicios en red</td>
+            </tr>
+            <tr>
+                <td>12:05-13:00</td>
+                <td>Itinerario personal</td>
+                <td rowspan="2">Itinerario Personal</td>
+            </tr>
+            <tr>
+                <td>13:00-13:55</td>
+                <td>Digitalizacion Aplic</td>
+               
+            </tr>
+        </tbody>
     </table>
-
+</body>
 </html>
