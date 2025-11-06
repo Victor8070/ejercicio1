@@ -5,11 +5,11 @@
     background-color: lightblue;
     margin: 5px 10px 15px 20px;
     padding: 5px 10px ;
-    border-color: blue  green orange red ;
-    border-width: 10px ;
-    border-style: dotted solid dashed double ;
-    width: 100px;
-    height: 100px;
+    border-color: black);
+    border-width: 5px ;
+    border-style: solid;
+    width: 700px;
+    height: 600px;
 }
 
 #caja1{
@@ -23,19 +23,22 @@
     background-attachment: fixed;
 }
 #caja2{
-    border: solid 3px darkgreen;
-    border-radius: 5px 15px;
-    background-image: url(../Cajas/img/advertising_17844586.png);
-    background-size: 50px;
+     width: 50%;
+    height: 100px;
+    border: solid 5px darkblue;;
+    border-radius: 0px 0px;
+    background-size: 30px;
     background-repeat:  no-repeat;
-    background-position: center;
+    background-position: center 20px;
     background-attachment: fixed;
 }
 #caja3{
-    border: solid 3px darkorange;
-    border-radius: 5px 15px;
-    background-image: url(../Cajas/img/advertising_17844586.png);
-    background-size: 100px;
+     width: 50%;
+    height: 100px;
+    border: solid 5px darkblue;;
+    border-radius: 0px 0px;
+    background-size: 30px;
     background-repeat:  no-repeat;
-    background-position: center;
+    background-position: center 20px;
     background-attachment: fixed;
+}
