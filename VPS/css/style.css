@@ -1,0 +1,74 @@
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0 20%;
+      background-color: white;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+   
+    .contenedor {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: stretch;
+      align-items: stretch;
+    }
+
+   
+    .tarjeta {
+      border: 2px solid #8A2BE2; 
+      border-radius: 10px;
+      padding: 25px 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      background-color: white;
+    }
+
+    .tarjeta h2 {
+      margin-bottom: 15px;
+    }
+
+    .tarjeta p {
+      margin: 5px 0;
+    }
+
+    .precio {
+      color: blue;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+  
+  .promocion {
+      grid-column: 1 / 3; 
+      grid-row: 3 / 3;    
+      background-color: #3C00FF; 
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .promocion span {
+      font-weight: bold;
+    }
+
+    
+    .enterprise {
+      grid-row: 1 / 3;    
+      align-self: stretch;
+      height: 500px;       
+    }
